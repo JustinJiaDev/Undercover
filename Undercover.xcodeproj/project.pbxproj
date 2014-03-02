@@ -79,6 +79,8 @@
 		07FDEEAA18C3481A00D10ADB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file; name = Base; path = Base.lproj/WordsDictionary.plist; sourceTree = "<group>"; };
 		07FDEEB218C3485200D10ADB /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		07FDEEB318C3487800D10ADB /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		07FDEEB818C34D5800D10ADB /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		07FDEEB918C34D5800D10ADB /* iTunesArtwork@2x */ = {isa = PBXFileReference; lastKnownFileType = file; path = "iTunesArtwork@2x"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +172,8 @@
 				07C6B02518C1C29A009DC65A /* main.m */,
 				07C6B05218C1C54E009DC65A /* Undercover.entitlements */,
 				07C6B02718C1C29A009DC65A /* Undercover-Prefix.pch */,
+				07FDEEB818C34D5800D10ADB /* iTunesArtwork */,
+				07FDEEB918C34D5800D10ADB /* iTunesArtwork@2x */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";

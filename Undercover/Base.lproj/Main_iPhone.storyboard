@@ -42,18 +42,18 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DQO-Y8-guc">
-                                <rect key="frame" x="40" y="472" width="120" height="88"/>
+                                <rect key="frame" x="20" y="472" width="115" height="88"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="64"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="64"/>
                                 <state key="normal" title="host"/>
                                 <connections>
                                     <segue destination="9Aj-if-0Hm" kind="modal" identifier="hostSegueIdentifier" modalTransitionStyle="flipHorizontal" id="l8n-XN-zxw"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gZE-kp-HI9">
-                                <rect key="frame" x="186" y="472" width="94" height="88"/>
+                                <rect key="frame" x="210" y="472" width="90" height="88"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="64"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="64"/>
                                 <state key="normal" title="join"/>
                                 <connections>
                                     <segue destination="WYh-db-F1j" kind="modal" identifier="agentSegueIdentifier" modalTransitionStyle="flipHorizontal" id="hHU-6v-5bq"/>
@@ -64,9 +64,9 @@
                         <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="csN-kE-qmt" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="ChK-Dp-m2J"/>
-                            <constraint firstItem="DQO-Y8-guc" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="40" id="CuO-ZS-kMf"/>
+                            <constraint firstItem="DQO-Y8-guc" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="CuO-ZS-kMf"/>
                             <constraint firstItem="52s-Ly-VmQ" firstAttribute="top" secondItem="csN-kE-qmt" secondAttribute="bottom" constant="8" symbolic="YES" id="HTA-em-Q0R"/>
-                            <constraint firstAttribute="trailing" secondItem="gZE-kp-HI9" secondAttribute="trailing" constant="40" id="Jmt-Va-h0o"/>
+                            <constraint firstAttribute="trailing" secondItem="gZE-kp-HI9" secondAttribute="trailing" constant="20" id="Jmt-Va-h0o"/>
                             <constraint firstItem="csN-kE-qmt" firstAttribute="top" secondItem="5mo-WX-B5k" secondAttribute="bottom" id="MhC-mL-gG3"/>
                             <constraint firstItem="eDW-yC-MZL" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="OSs-XB-lyG"/>
                             <constraint firstItem="eDW-yC-MZL" firstAttribute="top" secondItem="52s-Ly-VmQ" secondAttribute="bottom" constant="8" symbolic="YES" id="Rgz-M4-A9a"/>

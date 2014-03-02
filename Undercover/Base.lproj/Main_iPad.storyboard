@@ -42,18 +42,18 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bJ3-4L-hVE">
-                                <rect key="frame" x="100" y="786" width="120" height="88"/>
+                                <rect key="frame" x="100" y="783" width="166" height="121"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="64"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="92"/>
                                 <state key="normal" title="host"/>
                                 <connections>
                                     <segue destination="OX4-Tv-Y28" kind="modal" identifier="hostSegueIdentifier" modalTransitionStyle="flipHorizontal" id="yJO-aG-Kcx"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TmX-Bi-oC4">
-                                <rect key="frame" x="574" y="786" width="94" height="88"/>
+                                <rect key="frame" x="539" y="783" width="129" height="121"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="64"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="92"/>
                                 <state key="normal" title="join">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -71,8 +71,8 @@
                             <constraint firstItem="Ew6-vv-iuE" firstAttribute="leading" secondItem="ZvK-Dk-rrT" secondAttribute="leading" id="OhZ-1i-qk3"/>
                             <constraint firstItem="XMD-cl-hda" firstAttribute="leading" secondItem="ZvK-Dk-rrT" secondAttribute="leading" id="Tw6-Cd-8zf"/>
                             <constraint firstAttribute="trailing" secondItem="bsE-5f-gSz" secondAttribute="trailing" id="Wm9-rh-6VG"/>
-                            <constraint firstItem="Srh-9u-tw8" firstAttribute="top" secondItem="TmX-Bi-oC4" secondAttribute="bottom" constant="150" id="aQi-1X-rjt"/>
-                            <constraint firstItem="Srh-9u-tw8" firstAttribute="top" secondItem="bJ3-4L-hVE" secondAttribute="bottom" constant="150" id="acD-Ka-5Kt"/>
+                            <constraint firstItem="Srh-9u-tw8" firstAttribute="top" secondItem="TmX-Bi-oC4" secondAttribute="bottom" constant="120" id="aQi-1X-rjt"/>
+                            <constraint firstItem="Srh-9u-tw8" firstAttribute="top" secondItem="bJ3-4L-hVE" secondAttribute="bottom" constant="120" id="acD-Ka-5Kt"/>
                             <constraint firstAttribute="trailing" secondItem="Ew6-vv-iuE" secondAttribute="trailing" id="aj0-Vb-uWJ"/>
                             <constraint firstItem="bJ3-4L-hVE" firstAttribute="leading" secondItem="ZvK-Dk-rrT" secondAttribute="leading" constant="100" id="bu6-aV-tqX"/>
                             <constraint firstItem="Srh-9u-tw8" firstAttribute="top" secondItem="Ew6-vv-iuE" secondAttribute="bottom" id="fK2-zC-lPl"/>
