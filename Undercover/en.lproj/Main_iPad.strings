@@ -1,0 +1,36 @@
+
+/* Class = "IBUINavigationItem"; title = "The Undercover"; ObjectID = "0iX-Tb-DZI"; */
+"0iX-Tb-DZI.title" = "The Undercover";
+
+/* Class = "IBUIButton"; normalTitle = "Exit"; ObjectID = "1VK-Qn-JWi"; */
+"1VK-Qn-JWi.normalTitle" = "Exit";
+
+/* Class = "IBUIButton"; normalTitle = "Distribute Words"; ObjectID = "3xu-9m-bRw"; */
+"3xu-9m-bRw.normalTitle" = "Distribute Words";
+
+/* Class = "IBUIButton"; normalTitle = "join"; ObjectID = "TmX-Bi-oC4"; */
+"TmX-Bi-oC4.normalTitle" = "join";
+
+/* Class = "IBUILabel"; text = "Waiting"; ObjectID = "VWv-HS-5aY"; */
+"VWv-HS-5aY.text" = "Waiting";
+
+/* Class = "IBUITextField"; placeholder = "type your name here"; ObjectID = "XMD-cl-hda"; */
+"XMD-cl-hda.placeholder" = "type your name here";
+
+/* Class = "IBUIButton"; normalTitle = "Exit"; ObjectID = "XnU-r8-etv"; */
+"XnU-r8-etv.normalTitle" = "Exit";
+
+/* Class = "IBUIButton"; normalTitle = "host"; ObjectID = "bJ3-4L-hVE"; */
+"bJ3-4L-hVE.normalTitle" = "host";
+
+/* Class = "IBUILabel"; text = "undercover"; ObjectID = "bsE-5f-gSz"; */
+"bsE-5f-gSz.text" = "undercover";
+
+/* Class = "IBUINavigationItem"; title = "Agent"; ObjectID = "cM7-JF-Rrh"; */
+"cM7-JF-Rrh.title" = "Agent";
+
+/* Class = "IBUINavigationItem"; title = "Host"; ObjectID = "gT4-EF-wsq"; */
+"gT4-EF-wsq.title" = "Host";
+
+/* Class = "IBUILabel"; text = "Waiting"; ObjectID = "xxm-Bu-zeO"; */
+"xxm-Bu-zeO.text" = "Waiting";

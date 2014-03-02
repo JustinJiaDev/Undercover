@@ -1,0 +1,36 @@
+
+/* Class = "IBUITextField"; placeholder = "type your name here"; ObjectID = "52s-Ly-VmQ"; */
+"52s-Ly-VmQ.placeholder" = "在这里输入你的名字";
+
+/* Class = "IBUIButton"; normalTitle = "host"; ObjectID = "DQO-Y8-guc"; */
+"DQO-Y8-guc.normalTitle" = "主持";
+
+/* Class = "IBUIButton"; normalTitle = "Distribute Words"; ObjectID = "L34-it-azh"; */
+"L34-it-azh.normalTitle" = "分发单词";
+
+/* Class = "IBUINavigationItem"; title = "Host"; ObjectID = "Nm6-Ty-OcR"; */
+"Nm6-Ty-OcR.title" = "主持";
+
+/* Class = "IBUILabel"; text = "Waiting"; ObjectID = "PrQ-sf-8Ym"; */
+"PrQ-sf-8Ym.text" = "等待中";
+
+/* Class = "IBUINavigationItem"; title = "Agent"; ObjectID = "bpU-05-aQv"; */
+"bpU-05-aQv.title" = "加入";
+
+/* Class = "IBUILabel"; text = "undercover"; ObjectID = "csN-kE-qmt"; */
+"csN-kE-qmt.text" = "谁是卧底";
+
+/* Class = "IBUIButton"; normalTitle = "Exit"; ObjectID = "ePe-Oi-yIs"; */
+"ePe-Oi-yIs.normalTitle" = "退出";
+
+/* Class = "IBUIButton"; normalTitle = "join"; ObjectID = "gZE-kp-HI9"; */
+"gZE-kp-HI9.normalTitle" = "加入";
+
+/* Class = "IBUINavigationItem"; title = "The Undercover"; ObjectID = "iGl-y0-37b"; */
+"iGl-y0-37b.title" = "卧底";
+
+/* Class = "IBUILabel"; text = "Waiting"; ObjectID = "t1d-fU-sZN"; */
+"t1d-fU-sZN.text" = "等待中";
+
+/* Class = "IBUIButton"; normalTitle = "Exit"; ObjectID = "zSn-RL-bNb"; */
+"zSn-RL-bNb.normalTitle" = "退出";
