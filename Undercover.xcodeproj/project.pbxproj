@@ -15,13 +15,21 @@
 		07C6B02A18C1C29A009DC65A /* URAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C6B02918C1C29A009DC65A /* URAppDelegate.m */; };
 		07C6B02D18C1C29A009DC65A /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07C6B02B18C1C29A009DC65A /* Main_iPhone.storyboard */; };
 		07C6B03018C1C29A009DC65A /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07C6B02E18C1C29A009DC65A /* Main_iPad.storyboard */; };
-		07C6B03318C1C29A009DC65A /* URViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C6B03218C1C29A009DC65A /* URViewController.m */; };
+		07C6B03318C1C29A009DC65A /* URMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C6B03218C1C29A009DC65A /* URMainViewController.m */; };
 		07C6B03518C1C29A009DC65A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07C6B03418C1C29A009DC65A /* Images.xcassets */; };
 		07C6B03C18C1C29A009DC65A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07C6B03B18C1C29A009DC65A /* XCTest.framework */; };
 		07C6B03D18C1C29A009DC65A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07C6B01918C1C29A009DC65A /* Foundation.framework */; };
 		07C6B03E18C1C29A009DC65A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07C6B01D18C1C29A009DC65A /* UIKit.framework */; };
 		07C6B04618C1C29A009DC65A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07C6B04418C1C29A009DC65A /* InfoPlist.strings */; };
 		07C6B04818C1C29A009DC65A /* UndercoverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C6B04718C1C29A009DC65A /* UndercoverTests.m */; };
+		07C6B05518C1C909009DC65A /* MKSync.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C6B05418C1C909009DC65A /* MKSync.m */; };
+		07C6B05918C1D235009DC65A /* NSString+HasText.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C6B05818C1D235009DC65A /* NSString+HasText.m */; };
+		07C6B05C18C1D956009DC65A /* URHostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C6B05B18C1D956009DC65A /* URHostViewController.m */; };
+		07C6B05E18C1DC0F009DC65A /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07C6B05D18C1DC0F009DC65A /* MultipeerConnectivity.framework */; };
+		07C6B06118C21874009DC65A /* URPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C6B06018C21874009DC65A /* URPlayer.m */; };
+		07C6B06418C2294F009DC65A /* URAgentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C6B06318C2294F009DC65A /* URAgentViewController.m */; };
+		07C6B06718C22CD5009DC65A /* URConnectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C6B06618C22CD5009DC65A /* URConnectViewController.m */; };
+		07FDEEA818C23A2E00D10ADB /* WordsDictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07FDEEA718C23A2E00D10ADB /* WordsDictionary.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,14 +55,30 @@
 		07C6B02918C1C29A009DC65A /* URAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = URAppDelegate.m; sourceTree = "<group>"; };
 		07C6B02C18C1C29A009DC65A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		07C6B02F18C1C29A009DC65A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		07C6B03118C1C29A009DC65A /* URViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URViewController.h; sourceTree = "<group>"; };
-		07C6B03218C1C29A009DC65A /* URViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = URViewController.m; sourceTree = "<group>"; };
+		07C6B03118C1C29A009DC65A /* URMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URMainViewController.h; sourceTree = "<group>"; };
+		07C6B03218C1C29A009DC65A /* URMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = URMainViewController.m; sourceTree = "<group>"; };
 		07C6B03418C1C29A009DC65A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		07C6B03A18C1C29A009DC65A /* UndercoverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UndercoverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07C6B03B18C1C29A009DC65A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		07C6B04318C1C29A009DC65A /* UndercoverTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UndercoverTests-Info.plist"; sourceTree = "<group>"; };
 		07C6B04518C1C29A009DC65A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		07C6B04718C1C29A009DC65A /* UndercoverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UndercoverTests.m; sourceTree = "<group>"; };
+		07C6B05118C1C487009DC65A /* URConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URConstants.h; sourceTree = "<group>"; };
+		07C6B05218C1C54E009DC65A /* Undercover.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Undercover.entitlements; sourceTree = "<group>"; };
+		07C6B05318C1C909009DC65A /* MKSync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKSync.h; sourceTree = "<group>"; };
+		07C6B05418C1C909009DC65A /* MKSync.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKSync.m; sourceTree = "<group>"; };
+		07C6B05718C1D235009DC65A /* NSString+HasText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HasText.h"; sourceTree = "<group>"; };
+		07C6B05818C1D235009DC65A /* NSString+HasText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HasText.m"; sourceTree = "<group>"; };
+		07C6B05A18C1D956009DC65A /* URHostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URHostViewController.h; sourceTree = "<group>"; };
+		07C6B05B18C1D956009DC65A /* URHostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URHostViewController.m; sourceTree = "<group>"; };
+		07C6B05D18C1DC0F009DC65A /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
+		07C6B05F18C21874009DC65A /* URPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URPlayer.h; sourceTree = "<group>"; };
+		07C6B06018C21874009DC65A /* URPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URPlayer.m; sourceTree = "<group>"; };
+		07C6B06218C2294F009DC65A /* URAgentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URAgentViewController.h; sourceTree = "<group>"; };
+		07C6B06318C2294F009DC65A /* URAgentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URAgentViewController.m; sourceTree = "<group>"; };
+		07C6B06518C22CD5009DC65A /* URConnectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URConnectViewController.h; sourceTree = "<group>"; };
+		07C6B06618C22CD5009DC65A /* URConnectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URConnectViewController.m; sourceTree = "<group>"; };
+		07FDEEA718C23A2E00D10ADB /* WordsDictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = WordsDictionary.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07C6B05E18C1DC0F009DC65A /* MultipeerConnectivity.framework in Frameworks */,
 				07C6B01C18C1C29A009DC65A /* CoreGraphics.framework in Frameworks */,
 				07C6B01E18C1C29A009DC65A /* UIKit.framework in Frameworks */,
 				07C6B01A18C1C29A009DC65A /* Foundation.framework in Frameworks */,
@@ -103,6 +128,7 @@
 		07C6B01818C1C29A009DC65A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				07C6B05D18C1DC0F009DC65A /* MultipeerConnectivity.framework */,
 				07C6B01918C1C29A009DC65A /* Foundation.framework */,
 				07C6B01B18C1C29A009DC65A /* CoreGraphics.framework */,
 				07C6B01D18C1C29A009DC65A /* UIKit.framework */,
@@ -118,9 +144,17 @@
 				07C6B02918C1C29A009DC65A /* URAppDelegate.m */,
 				07C6B02B18C1C29A009DC65A /* Main_iPhone.storyboard */,
 				07C6B02E18C1C29A009DC65A /* Main_iPad.storyboard */,
-				07C6B03118C1C29A009DC65A /* URViewController.h */,
-				07C6B03218C1C29A009DC65A /* URViewController.m */,
-				07C6B03418C1C29A009DC65A /* Images.xcassets */,
+				07C6B03118C1C29A009DC65A /* URMainViewController.h */,
+				07C6B03218C1C29A009DC65A /* URMainViewController.m */,
+				07C6B05A18C1D956009DC65A /* URHostViewController.h */,
+				07C6B05B18C1D956009DC65A /* URHostViewController.m */,
+				07C6B06218C2294F009DC65A /* URAgentViewController.h */,
+				07C6B06318C2294F009DC65A /* URAgentViewController.m */,
+				07C6B06518C22CD5009DC65A /* URConnectViewController.h */,
+				07C6B06618C22CD5009DC65A /* URConnectViewController.m */,
+				07C6B05F18C21874009DC65A /* URPlayer.h */,
+				07C6B06018C21874009DC65A /* URPlayer.m */,
+				07C6B05618C1CCED009DC65A /* Sypporting Code */,
 				07C6B02018C1C29A009DC65A /* Supporting Files */,
 			);
 			path = Undercover;
@@ -130,8 +164,11 @@
 			isa = PBXGroup;
 			children = (
 				07C6B02118C1C29A009DC65A /* Undercover-Info.plist */,
+				07C6B03418C1C29A009DC65A /* Images.xcassets */,
 				07C6B02218C1C29A009DC65A /* InfoPlist.strings */,
+				07FDEEA718C23A2E00D10ADB /* WordsDictionary.plist */,
 				07C6B02518C1C29A009DC65A /* main.m */,
+				07C6B05218C1C54E009DC65A /* Undercover.entitlements */,
 				07C6B02718C1C29A009DC65A /* Undercover-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -153,6 +190,18 @@
 				07C6B04418C1C29A009DC65A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07C6B05618C1CCED009DC65A /* Sypporting Code */ = {
+			isa = PBXGroup;
+			children = (
+				07C6B05318C1C909009DC65A /* MKSync.h */,
+				07C6B05418C1C909009DC65A /* MKSync.m */,
+				07C6B05718C1D235009DC65A /* NSString+HasText.h */,
+				07C6B05818C1D235009DC65A /* NSString+HasText.m */,
+				07C6B05118C1C487009DC65A /* URConstants.h */,
+			);
+			name = "Sypporting Code";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,6 +252,14 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = Jacinth;
 				TargetAttributes = {
+					07C6B01518C1C29A009DC65A = {
+						DevelopmentTeam = 7T3TPJYB73;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
 					07C6B03918C1C29A009DC65A = {
 						TestTargetID = 07C6B01518C1C29A009DC65A;
 					};
@@ -235,6 +292,7 @@
 				07C6B03018C1C29A009DC65A /* Main_iPad.storyboard in Resources */,
 				07C6B03518C1C29A009DC65A /* Images.xcassets in Resources */,
 				07C6B02D18C1C29A009DC65A /* Main_iPhone.storyboard in Resources */,
+				07FDEEA818C23A2E00D10ADB /* WordsDictionary.plist in Resources */,
 				07C6B02418C1C29A009DC65A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,9 +312,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07C6B05918C1D235009DC65A /* NSString+HasText.m in Sources */,
 				07C6B02618C1C29A009DC65A /* main.m in Sources */,
-				07C6B03318C1C29A009DC65A /* URViewController.m in Sources */,
+				07C6B05C18C1D956009DC65A /* URHostViewController.m in Sources */,
+				07C6B03318C1C29A009DC65A /* URMainViewController.m in Sources */,
+				07C6B05518C1C909009DC65A /* MKSync.m in Sources */,
+				07C6B06118C21874009DC65A /* URPlayer.m in Sources */,
 				07C6B02A18C1C29A009DC65A /* URAppDelegate.m in Sources */,
+				07C6B06418C2294F009DC65A /* URAgentViewController.m in Sources */,
+				07C6B06718C22CD5009DC65A /* URConnectViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,10 +457,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = Undercover/Undercover.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Undercover/Undercover-Prefix.pch";
 				INFOPLIST_FILE = "Undercover/Undercover-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -406,10 +474,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = Undercover/Undercover.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Undercover/Undercover-Prefix.pch";
 				INFOPLIST_FILE = "Undercover/Undercover-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -475,6 +547,7 @@
 				07C6B04D18C1C29A009DC65A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		07C6B04E18C1C29A009DC65A /* Build configuration list for PBXNativeTarget "UndercoverTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +556,7 @@
 				07C6B05018C1C29A009DC65A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

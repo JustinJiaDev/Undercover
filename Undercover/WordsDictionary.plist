@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>normal-word</key>
+		<string>Hello, world!</string>
+		<key>undercover-word</key>
+		<string>Hello, earth!</string>
+	</dict>
+	<dict>
+		<key>normal-word</key>
+		<string>MacBook Pro</string>
+		<key>undercover-word</key>
+		<string>MacBook Air</string>
+	</dict>
+	<dict>
+		<key>normal-word</key>
+		<string>Pen</string>
+		<key>undercover-word</key>
+		<string>Pencil</string>
+	</dict>
+</array>
+</plist>

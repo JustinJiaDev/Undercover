@@ -7,11 +7,14 @@
 //
 
 #import "URAppDelegate.h"
+#import "MKSync.h"
 
 @implementation URAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [MKSync start];
+    
     return YES;
 }
 
