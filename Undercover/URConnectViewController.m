@@ -33,6 +33,18 @@
 
 - (void)session:(MCSession *)session peer:(MCPeerID *)peerID didChangeState:(MCSessionState)state { }
 
+#pragma mark - View Methods
+- (void)exitButtonTapped:(id)sender
+{
+    [self.delegate connectViewControllerDidFinish:self];
+}
+
+#pragma mark - Status Bar Methods
+- (BOOL)prefersStatusBarHidden
+{
+    return YES;
+}
+
 #pragma mark - Setter & Getter Methods
 - (MCSession *)session
 {

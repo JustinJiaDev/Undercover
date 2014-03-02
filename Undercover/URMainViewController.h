@@ -6,7 +6,9 @@
 //  Copyright (c) 2014 Jacinth. All rights reserved.
 //
 
-@interface URMainViewController : UIViewController <UITextFieldDelegate>
+#import "URConnectViewController.h"
+
+@interface URMainViewController : UIViewController <UITextFieldDelegate, URConnectViewControllerDelegate>
 
 @property (weak, nonatomic) IBOutlet UITextField *nameTextField;
 

@@ -9,6 +9,14 @@
 #import "URPlayer.h"
 #import "URConstants.h"
 
+@class URConnectViewController;
+
+@protocol URConnectViewControllerDelegate <NSObject>
+
+@required - (void)connectViewControllerDidFinish:(URConnectViewController *)connectViewController;
+
+@end
+
 @import MultipeerConnectivity;
 
 @interface URConnectViewController : UIViewController <MCSessionDelegate>
@@ -17,5 +25,9 @@
 
 @property (strong, nonatomic, readonly) MCSession *session;
 @property (strong, nonatomic, readonly) MCPeerID *peerID;
+
+@property (weak, nonatomic) id <URConnectViewControllerDelegate> delegate;
+
+- (IBAction)exitButtonTapped:(id)sender;
 
 @end

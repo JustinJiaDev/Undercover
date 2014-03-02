@@ -29,7 +29,7 @@
 		07C6B06118C21874009DC65A /* URPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C6B06018C21874009DC65A /* URPlayer.m */; };
 		07C6B06418C2294F009DC65A /* URAgentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C6B06318C2294F009DC65A /* URAgentViewController.m */; };
 		07C6B06718C22CD5009DC65A /* URConnectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C6B06618C22CD5009DC65A /* URConnectViewController.m */; };
-		07FDEEA818C23A2E00D10ADB /* WordsDictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07FDEEA718C23A2E00D10ADB /* WordsDictionary.plist */; };
+		07FDEEA918C3481A00D10ADB /* WordsDictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07FDEEAB18C3481A00D10ADB /* WordsDictionary.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +48,6 @@
 		07C6B01B18C1C29A009DC65A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		07C6B01D18C1C29A009DC65A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		07C6B02118C1C29A009DC65A /* Undercover-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Undercover-Info.plist"; sourceTree = "<group>"; };
-		07C6B02318C1C29A009DC65A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		07C6B02518C1C29A009DC65A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		07C6B02718C1C29A009DC65A /* Undercover-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Undercover-Prefix.pch"; sourceTree = "<group>"; };
 		07C6B02818C1C29A009DC65A /* URAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URAppDelegate.h; sourceTree = "<group>"; };
@@ -61,7 +60,6 @@
 		07C6B03A18C1C29A009DC65A /* UndercoverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UndercoverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07C6B03B18C1C29A009DC65A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		07C6B04318C1C29A009DC65A /* UndercoverTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UndercoverTests-Info.plist"; sourceTree = "<group>"; };
-		07C6B04518C1C29A009DC65A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		07C6B04718C1C29A009DC65A /* UndercoverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UndercoverTests.m; sourceTree = "<group>"; };
 		07C6B05118C1C487009DC65A /* URConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URConstants.h; sourceTree = "<group>"; };
 		07C6B05218C1C54E009DC65A /* Undercover.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Undercover.entitlements; sourceTree = "<group>"; };
@@ -78,7 +76,9 @@
 		07C6B06318C2294F009DC65A /* URAgentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URAgentViewController.m; sourceTree = "<group>"; };
 		07C6B06518C22CD5009DC65A /* URConnectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URConnectViewController.h; sourceTree = "<group>"; };
 		07C6B06618C22CD5009DC65A /* URConnectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URConnectViewController.m; sourceTree = "<group>"; };
-		07FDEEA718C23A2E00D10ADB /* WordsDictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = WordsDictionary.plist; sourceTree = "<group>"; };
+		07FDEEAA18C3481A00D10ADB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file; name = Base; path = Base.lproj/WordsDictionary.plist; sourceTree = "<group>"; };
+		07FDEEB218C3485200D10ADB /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		07FDEEB318C3487800D10ADB /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,7 +166,7 @@
 				07C6B02118C1C29A009DC65A /* Undercover-Info.plist */,
 				07C6B03418C1C29A009DC65A /* Images.xcassets */,
 				07C6B02218C1C29A009DC65A /* InfoPlist.strings */,
-				07FDEEA718C23A2E00D10ADB /* WordsDictionary.plist */,
+				07FDEEAB18C3481A00D10ADB /* WordsDictionary.plist */,
 				07C6B02518C1C29A009DC65A /* main.m */,
 				07C6B05218C1C54E009DC65A /* Undercover.entitlements */,
 				07C6B02718C1C29A009DC65A /* Undercover-Prefix.pch */,
@@ -272,6 +272,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 07C6B00D18C1C29A009DC65A;
 			productRefGroup = 07C6B01718C1C29A009DC65A /* Products */;
@@ -292,7 +293,7 @@
 				07C6B03018C1C29A009DC65A /* Main_iPad.storyboard in Resources */,
 				07C6B03518C1C29A009DC65A /* Images.xcassets in Resources */,
 				07C6B02D18C1C29A009DC65A /* Main_iPhone.storyboard in Resources */,
-				07FDEEA818C23A2E00D10ADB /* WordsDictionary.plist in Resources */,
+				07FDEEA918C3481A00D10ADB /* WordsDictionary.plist in Resources */,
 				07C6B02418C1C29A009DC65A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -346,7 +347,7 @@
 		07C6B02218C1C29A009DC65A /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				07C6B02318C1C29A009DC65A /* en */,
+				07FDEEB218C3485200D10ADB /* Base */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -370,9 +371,17 @@
 		07C6B04418C1C29A009DC65A /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				07C6B04518C1C29A009DC65A /* en */,
+				07FDEEB318C3487800D10ADB /* Base */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		07FDEEAB18C3481A00D10ADB /* WordsDictionary.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07FDEEAA18C3481A00D10ADB /* Base */,
+			);
+			name = WordsDictionary.plist;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

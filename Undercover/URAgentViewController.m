@@ -11,18 +11,28 @@
 @interface URAgentViewController ()
 
 @property (strong, nonatomic) MCBrowserViewController *browserViewController;
+@property (nonatomic, getter = hasPresentedBrowserViewController) BOOL presentedBrowserViewController;
 
 @end
 
 @implementation URAgentViewController
 
 #pragma mark - View Controller Methods
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    
+    self.presentedBrowserViewController = NO;
+}
+
 - (void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
     
-    if (!self.session.connectedPeers.count) {
-        [self presentViewController:self.browserViewController animated:YES completion:nil];
+    if (!self.session.connectedPeers.count && !self.hasPresentedBrowserViewController) {
+        [self presentViewController:self.browserViewController animated:YES completion:^{
+            self.presentedBrowserViewController = YES;
+        }];
     }
 }
 
@@ -41,7 +51,9 @@
 
 - (void)browserViewControllerWasCancelled:(MCBrowserViewController *)browserViewController
 {
-    [self dismissViewControllerAnimated:YES completion:nil];
+    [self dismissViewControllerAnimated:YES completion:^{
+        [self.delegate connectViewControllerDidFinish:self];
+    }];
 }
 
 #pragma mark - Setter & Getter Methods

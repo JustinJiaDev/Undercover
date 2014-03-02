@@ -11,9 +11,6 @@
 #import "URConstants.h"
 #import "NSString+HasText.h"
 
-static NSString * const hostSegueIdentifier = @"hostSegueIdentifier";
-static NSString * const joinSegueIdentifier = @"joinSegueIdentifier";
-
 @implementation URMainViewController
 
 #pragma mark View Controller Methods
@@ -33,6 +30,13 @@ static NSString * const joinSegueIdentifier = @"joinSegueIdentifier";
     }
 }
 
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    URConnectViewController *connectViewController = segue.destinationViewController;
+    
+    connectViewController.delegate = self;
+}
+
 #pragma mark - View Methods
 - (IBAction)nameTextFieldDidEndOnExit:(id)sender
 {
@@ -46,6 +50,12 @@ static NSString * const joinSegueIdentifier = @"joinSegueIdentifier";
     return (finalLength <= maxNameLength || finalLength < textField.text.length) ? YES : NO;
 }
 
+#pragma mark - Connect View Controller Delegate Methods
+- (void)connectViewControllerDidFinish:(URConnectViewController *)connectViewController
+{
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
 #pragma - Responder Methods
 - (IBAction)handleViewTap:(UIGestureRecognizer *)gestureRecognizer
 {
@@ -57,6 +67,23 @@ static NSString * const joinSegueIdentifier = @"joinSegueIdentifier";
         default:
             break;
     }
+}
+
+#pragma mark - Orientation Methods
+- (BOOL)shouldAutorotate
+{
+    return NO;
+}
+
+- (NSUInteger)supportedInterfaceOrientations
+{
+    return UIInterfaceOrientationPortrait;
+}
+
+#pragma mark - Status Bar Methods
+- (BOOL)prefersStatusBarHidden
+{
+    return YES;
 }
 
 @end
