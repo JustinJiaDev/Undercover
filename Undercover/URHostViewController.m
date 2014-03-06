@@ -8,8 +8,13 @@
 
 #import "URHostViewController.h"
 
+#define IS_UNDERCOVER_STRING NSLocalizedString(@"You are the undercover!", @"Display this message after user tapped \"I am Dead\".")
+#define IS_NOT_UNDERCOVER_STRING NSLocalizedString(@"You are the good guy!", @"Display this message after user tapped \"I am Dead\".")
+
 static NSString * const normalWordKey = @"normal-word";
 static NSString * const undercoverWordKey = @"undercover-word";
+
+static NSString * const firstUnplayedWordIndexKey = @"first-unplayed-word-index-key";
 
 @interface URHostViewController ()
 
@@ -53,7 +58,7 @@ static NSString * const undercoverWordKey = @"undercover-word";
     
     [self.allPlayers enumerateObjectsUsingBlock:^(URPlayer *player, NSUInteger idx, BOOL *stop) {
         if ([player.peerID isEqual:self.peerID]) {
-            self.label.text = player.isUndercover ? isUndercoverString : isNotUndercoverString;
+            self.label.text = player.isUndercover ? IS_UNDERCOVER_STRING : IS_NOT_UNDERCOVER_STRING;
             
             *stop = YES;
         }
@@ -64,7 +69,7 @@ static NSString * const undercoverWordKey = @"undercover-word";
 {
     [self.allPlayers enumerateObjectsUsingBlock:^(URPlayer *player, NSUInteger idx, BOOL *stop) {
         if ([player.peerID isEqual:peerID]) {
-            [self.session sendData:[player.isUndercover ? isUndercoverString : isNotUndercoverString dataUsingEncoding:NSUTF8StringEncoding] toPeers:@[peerID] withMode:MCSessionSendDataReliable error:nil];
+            [self.session sendData:[player.isUndercover ? IS_UNDERCOVER_STRING : IS_NOT_UNDERCOVER_STRING dataUsingEncoding:NSUTF8StringEncoding] toPeers:@[peerID] withMode:MCSessionSendDataReliable error:nil];
             
             *stop = YES;
         }

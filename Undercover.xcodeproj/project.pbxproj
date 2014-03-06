@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		071117C618C8BE370063AB19 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 071117C418C8BE370063AB19 /* Localizable.strings */; };
 		07C6B01A18C1C29A009DC65A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07C6B01918C1C29A009DC65A /* Foundation.framework */; };
 		07C6B01C18C1C29A009DC65A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07C6B01B18C1C29A009DC65A /* CoreGraphics.framework */; };
 		07C6B01E18C1C29A009DC65A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07C6B01D18C1C29A009DC65A /* UIKit.framework */; };
@@ -45,6 +46,9 @@
 /* Begin PBXFileReference section */
 		071117C218C8BA360063AB19 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main_iPad.strings; sourceTree = "<group>"; };
 		071117C318C8BA3B0063AB19 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main_iPad.strings"; sourceTree = "<group>"; };
+		071117C518C8BE370063AB19 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		071117C718C8BE3B0063AB19 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		071117C818C8BE3C0063AB19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		07C6B01618C1C29A009DC65A /* Undercover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Undercover.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07C6B01918C1C29A009DC65A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		07C6B01B18C1C29A009DC65A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -175,6 +179,7 @@
 		07C6B02018C1C29A009DC65A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				071117C418C8BE370063AB19 /* Localizable.strings */,
 				07C6B02118C1C29A009DC65A /* Undercover-Info.plist */,
 				07C6B03418C1C29A009DC65A /* Images.xcassets */,
 				07C6B02218C1C29A009DC65A /* InfoPlist.strings */,
@@ -305,6 +310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				07C6B03018C1C29A009DC65A /* Main_iPad.storyboard in Resources */,
+				071117C618C8BE370063AB19 /* Localizable.strings in Resources */,
 				07C6B03518C1C29A009DC65A /* Images.xcassets in Resources */,
 				07C6B02D18C1C29A009DC65A /* Main_iPhone.storyboard in Resources */,
 				07FDEEA918C3481A00D10ADB /* WordsDictionary.plist in Resources */,
@@ -358,6 +364,16 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		071117C418C8BE370063AB19 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				071117C518C8BE370063AB19 /* zh-Hans */,
+				071117C718C8BE3B0063AB19 /* en */,
+				071117C818C8BE3C0063AB19 /* Base */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		07C6B02218C1C29A009DC65A /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (

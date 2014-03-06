@@ -11,6 +11,8 @@
 #import "URConstants.h"
 #import "NSString+HasText.h"
 
+static NSUInteger const maxNameLength = 16;
+
 @implementation URMainViewController
 
 #pragma mark View Controller Methods
