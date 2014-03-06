@@ -1,7 +1,4 @@
 
-/* Class = "IBUINavigationItem"; title = "The Undercover"; ObjectID = "0iX-Tb-DZI"; */
-"0iX-Tb-DZI.title" = "The Undercover";
-
 /* Class = "IBUIButton"; normalTitle = "Exit"; ObjectID = "1VK-Qn-JWi"; */
 "1VK-Qn-JWi.normalTitle" = "Exit";
 
@@ -25,12 +22,6 @@
 
 /* Class = "IBUILabel"; text = "undercover"; ObjectID = "bsE-5f-gSz"; */
 "bsE-5f-gSz.text" = "undercover";
-
-/* Class = "IBUINavigationItem"; title = "Agent"; ObjectID = "cM7-JF-Rrh"; */
-"cM7-JF-Rrh.title" = "Agent";
-
-/* Class = "IBUINavigationItem"; title = "Host"; ObjectID = "gT4-EF-wsq"; */
-"gT4-EF-wsq.title" = "Host";
 
 /* Class = "IBUILabel"; text = "Waiting"; ObjectID = "xxm-Bu-zeO"; */
 "xxm-Bu-zeO.text" = "Waiting";

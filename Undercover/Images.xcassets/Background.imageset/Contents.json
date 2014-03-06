@@ -2,7 +2,8 @@
   "images" : [
     {
       "idiom" : "iphone",
-      "scale" : "1x"
+      "scale" : "1x",
+      "filename" : "Background-iPhone.png"
     },
     {
       "idiom" : "iphone",
@@ -11,7 +12,8 @@
     },
     {
       "idiom" : "ipad",
-      "scale" : "1x"
+      "scale" : "1x",
+      "filename" : "Background-iPad.png"
     },
     {
       "idiom" : "ipad",

@@ -1,7 +1,4 @@
 
-/* Class = "IBUINavigationItem"; title = "The Undercover"; ObjectID = "0iX-Tb-DZI"; */
-"0iX-Tb-DZI.title" = "卧底";
-
 /* Class = "IBUIButton"; normalTitle = "Exit"; ObjectID = "1VK-Qn-JWi"; */
 "1VK-Qn-JWi.normalTitle" = "退出";
 
@@ -21,16 +18,10 @@
 "XnU-r8-etv.normalTitle" = "退出";
 
 /* Class = "IBUIButton"; normalTitle = "host"; ObjectID = "bJ3-4L-hVE"; */
-"bJ3-4L-hVE.normalTitle" = "主持";
+"bJ3-4L-hVE.normalTitle" = "创建";
 
 /* Class = "IBUILabel"; text = "undercover"; ObjectID = "bsE-5f-gSz"; */
 "bsE-5f-gSz.text" = "谁是卧底";
-
-/* Class = "IBUINavigationItem"; title = "Agent"; ObjectID = "cM7-JF-Rrh"; */
-"cM7-JF-Rrh.title" = "加入";
-
-/* Class = "IBUINavigationItem"; title = "Host"; ObjectID = "gT4-EF-wsq"; */
-"gT4-EF-wsq.title" = "主持";
 
 /* Class = "IBUILabel"; text = "Waiting"; ObjectID = "xxm-Bu-zeO"; */
 "xxm-Bu-zeO.text" = "等待中";

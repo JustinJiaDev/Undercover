@@ -69,17 +69,6 @@
     }
 }
 
-#pragma mark - Orientation Methods
-- (BOOL)shouldAutorotate
-{
-    return NO;
-}
-
-- (NSUInteger)supportedInterfaceOrientations
-{
-    return UIInterfaceOrientationPortrait;
-}
-
 #pragma mark - Status Bar Methods
 - (BOOL)prefersStatusBarHidden
 {
