@@ -43,6 +43,14 @@
     [self.session disconnect];
 }
 
+#pragma mark - Connect View Controller Methods
+- (void)deadButtonTapped:(id)sender
+{
+    [super deadButtonTapped:sender];
+    
+    [self.session sendData:[deadMessage dataUsingEncoding:NSUTF8StringEncoding] toPeers:self.session.connectedPeers withMode:MCSessionSendDataReliable error:nil];
+}
+
 #pragma mark - Browser View Controller Delegate Methods
 - (void)browserViewControllerDidFinish:(MCBrowserViewController *)browserViewController
 {

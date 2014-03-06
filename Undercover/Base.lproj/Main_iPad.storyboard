@@ -132,6 +132,18 @@
                                     <action selector="exitButtonTapped:" destination="OX4-Tv-Y28" eventType="touchUpInside" id="iK5-XR-e4k"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7TY-ot-v1M">
+                                <rect key="frame" x="329" y="929" width="111" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="26"/>
+                                <state key="normal" title="I am Dead">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="deadButtonTapped:" destination="OX4-Tv-Y28" eventType="touchUpInside" id="rEo-eW-R5H"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3xu-9m-bRw">
                                 <rect key="frame" x="0.0" y="980" width="768" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -151,9 +163,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="VWv-HS-5aY" firstAttribute="leading" secondItem="y47-aA-Fdw" secondAttribute="leading" id="HO8-Lg-8b6"/>
+                            <constraint firstItem="3xu-9m-bRw" firstAttribute="top" secondItem="7TY-ot-v1M" secondAttribute="bottom" constant="8" symbolic="YES" id="IfZ-L0-dum"/>
                             <constraint firstItem="3xu-9m-bRw" firstAttribute="leading" secondItem="y47-aA-Fdw" secondAttribute="leading" id="KOo-rL-9fX"/>
                             <constraint firstItem="kOr-09-7lU" firstAttribute="top" secondItem="3xu-9m-bRw" secondAttribute="bottom" id="O78-6K-8uU"/>
                             <constraint firstItem="VWv-HS-5aY" firstAttribute="top" secondItem="uAy-Dl-jlf" secondAttribute="bottom" id="V7G-r2-pNK"/>
+                            <constraint firstAttribute="centerX" secondItem="7TY-ot-v1M" secondAttribute="centerX" id="bKS-QG-DxD"/>
                             <constraint firstItem="XnU-r8-etv" firstAttribute="top" secondItem="uAy-Dl-jlf" secondAttribute="bottom" constant="20" symbolic="YES" id="hhO-8S-Khd"/>
                             <constraint firstAttribute="centerX" secondItem="XnU-r8-etv" secondAttribute="centerX" id="ktz-KN-bpI"/>
                             <constraint firstItem="kOr-09-7lU" firstAttribute="top" secondItem="VWv-HS-5aY" secondAttribute="bottom" id="nT0-9E-Yom"/>
@@ -190,6 +204,18 @@
                                 <nil key="highlightedColor"/>
                                 <size key="shadowOffset" width="0.0" height="0.0"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tlb-QA-Tsa">
+                                <rect key="frame" x="329" y="973" width="111" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="26"/>
+                                <state key="normal" title="I am Dead">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="deadButtonTapped:" destination="eCb-hp-BGo" eventType="touchUpInside" id="sdB-xG-DcF"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1VK-Qn-JWi">
                                 <rect key="frame" x="365" y="8" width="38" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -207,8 +233,10 @@
                         <constraints>
                             <constraint firstItem="1VK-Qn-JWi" firstAttribute="top" secondItem="qZY-cj-ODe" secondAttribute="bottom" constant="20" symbolic="YES" id="C4b-NP-aLB"/>
                             <constraint firstItem="E1b-Px-JS1" firstAttribute="top" secondItem="xxm-Bu-zeO" secondAttribute="bottom" id="FjJ-lx-n7H"/>
+                            <constraint firstAttribute="centerX" secondItem="tlb-QA-Tsa" secondAttribute="centerX" id="K1i-58-Hge"/>
                             <constraint firstItem="xxm-Bu-zeO" firstAttribute="top" secondItem="qZY-cj-ODe" secondAttribute="bottom" id="dXB-Yp-vQN"/>
                             <constraint firstAttribute="trailing" secondItem="xxm-Bu-zeO" secondAttribute="trailing" id="eww-e2-0bJ"/>
+                            <constraint firstItem="E1b-Px-JS1" firstAttribute="top" secondItem="tlb-QA-Tsa" secondAttribute="bottom" constant="20" symbolic="YES" id="f7T-b0-IFu"/>
                             <constraint firstAttribute="centerX" secondItem="1VK-Qn-JWi" secondAttribute="centerX" id="hs3-Qx-rLh"/>
                             <constraint firstItem="xxm-Bu-zeO" firstAttribute="leading" secondItem="xxa-oz-g9a" secondAttribute="leading" id="wlo-W5-2A2"/>
                         </constraints>

@@ -29,5 +29,8 @@
 @property (weak, nonatomic) id <URConnectViewControllerDelegate> delegate;
 
 - (IBAction)exitButtonTapped:(id)sender;
+- (IBAction)deadButtonTapped:(id)sender;
+
+- (void)peerDeadMessageRecieved:(MCPeerID *)peerID;
 
 @end

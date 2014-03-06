@@ -46,6 +46,31 @@ static NSString * const undercoverWordKey = @"undercover-word";
     self.wordsDictionary = nil;
 }
 
+#pragma mark Connect View Controller Methods
+- (void)deadButtonTapped:(id)sender
+{
+    [super deadButtonTapped:sender];
+    
+    [self.allPlayers enumerateObjectsUsingBlock:^(URPlayer *player, NSUInteger idx, BOOL *stop) {
+        if ([player.peerID isEqual:self.peerID]) {
+            self.label.text = player.isUndercover ? isUndercoverString : isNotUndercoverString;
+            
+            *stop = YES;
+        }
+    }];
+}
+
+- (void)peerDeadMessageRecieved:(MCPeerID *)peerID
+{
+    [self.allPlayers enumerateObjectsUsingBlock:^(URPlayer *player, NSUInteger idx, BOOL *stop) {
+        if ([player.peerID isEqual:peerID]) {
+            [self.session sendData:[player.isUndercover ? isUndercoverString : isNotUndercoverString dataUsingEncoding:NSUTF8StringEncoding] toPeers:@[peerID] withMode:MCSessionSendDataReliable error:nil];
+            
+            *stop = YES;
+        }
+    }];
+}
+
 #pragma mark - View Methods
 - (void)startButtonTapped:(id)sender
 {

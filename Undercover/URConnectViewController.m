@@ -20,8 +20,14 @@
 #pragma mark - Session Delegate Methods
 - (void)session:(MCSession *)session didReceiveData:(NSData *)data fromPeer:(MCPeerID *)peerID
 {
+    NSString *recievedMessage = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+
     dispatch_async(dispatch_get_main_queue(), ^{
-        self.label.text = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+        if (![recievedMessage isEqualToString:deadMessage]) {
+            self.label.text = recievedMessage;
+        } else {
+            [self peerDeadMessageRecieved:peerID];
+        }
     });
 }
 
@@ -38,6 +44,10 @@
 {
     [self.delegate connectViewControllerDidFinish:self];
 }
+
+- (void)deadButtonTapped:(id)sender { }
+
+- (void)peerDeadMessageRecieved:(MCPeerID *)peerID { }
 
 #pragma mark - Status Bar Methods
 - (BOOL)prefersStatusBarHidden

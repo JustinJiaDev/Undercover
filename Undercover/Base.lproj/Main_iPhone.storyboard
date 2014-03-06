@@ -118,6 +118,18 @@
                                 <nil key="highlightedColor"/>
                                 <size key="shadowOffset" width="0.0" height="0.0"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q6R-s9-JOt">
+                                <rect key="frame" x="105" y="473" width="111" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="26"/>
+                                <state key="normal" title="I am Dead">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="deadButtonTapped:" destination="9Aj-if-0Hm" eventType="touchUpInside" id="7pP-50-5yw"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zSn-RL-bNb">
                                 <rect key="frame" x="141" y="8" width="38" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -156,7 +168,9 @@
                             <constraint firstItem="t1d-fU-sZN" firstAttribute="leading" secondItem="tP7-Nv-cyC" secondAttribute="leading" id="a4K-bR-2Dk"/>
                             <constraint firstAttribute="trailing" secondItem="t1d-fU-sZN" secondAttribute="trailing" id="a94-0J-P2f"/>
                             <constraint firstAttribute="trailing" secondItem="L34-it-azh" secondAttribute="trailing" id="aN3-di-ddy"/>
+                            <constraint firstAttribute="centerX" secondItem="Q6R-s9-JOt" secondAttribute="centerX" id="qB4-Ws-32M"/>
                             <constraint firstAttribute="centerX" secondItem="zSn-RL-bNb" secondAttribute="centerX" id="qcg-JO-WPZ"/>
+                            <constraint firstItem="L34-it-azh" firstAttribute="top" secondItem="Q6R-s9-JOt" secondAttribute="bottom" constant="8" symbolic="YES" id="uKP-C4-snW"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Host" id="Nm6-Ty-OcR"/>
@@ -188,6 +202,18 @@
                                 <nil key="highlightedColor"/>
                                 <size key="shadowOffset" width="0.0" height="0.0"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xle-RU-a7q">
+                                <rect key="frame" x="105" y="517" width="111" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="26"/>
+                                <state key="normal" title="I am Dead">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="deadButtonTapped:" destination="WYh-db-F1j" eventType="touchUpInside" id="Qqf-WO-4Zj"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ePe-Oi-yIs">
                                 <rect key="frame" x="141" y="8" width="38" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -206,8 +232,10 @@
                             <constraint firstAttribute="centerX" secondItem="ePe-Oi-yIs" secondAttribute="centerX" id="1xH-Hb-H43"/>
                             <constraint firstItem="ePe-Oi-yIs" firstAttribute="top" secondItem="l7L-Wp-qOU" secondAttribute="bottom" constant="20" symbolic="YES" id="EzP-pi-82L"/>
                             <constraint firstItem="PrQ-sf-8Ym" firstAttribute="leading" secondItem="SXW-fi-Hzz" secondAttribute="leading" id="RKj-rl-mb7"/>
+                            <constraint firstItem="nA5-Ja-7Dh" firstAttribute="top" secondItem="xle-RU-a7q" secondAttribute="bottom" constant="20" symbolic="YES" id="U1y-m6-wbR"/>
                             <constraint firstItem="PrQ-sf-8Ym" firstAttribute="top" secondItem="l7L-Wp-qOU" secondAttribute="bottom" id="Y5r-bC-PHz"/>
                             <constraint firstAttribute="trailing" secondItem="PrQ-sf-8Ym" secondAttribute="trailing" id="gxd-tt-qeT"/>
+                            <constraint firstAttribute="centerX" secondItem="xle-RU-a7q" secondAttribute="centerX" id="ho2-qh-ccn"/>
                             <constraint firstItem="nA5-Ja-7Dh" firstAttribute="top" secondItem="PrQ-sf-8Ym" secondAttribute="bottom" id="iym-dW-dRz"/>
                         </constraints>
                     </view>
