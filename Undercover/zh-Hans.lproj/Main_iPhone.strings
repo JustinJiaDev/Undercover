@@ -1,27 +1,33 @@
 
-/* Class = "IBUITextField"; placeholder = "type your name here"; ObjectID = "52s-Ly-VmQ"; */
+/* Class = "IBUITextField"; placeholder = "在这里输入你的名字"; ObjectID = "52s-Ly-VmQ"; */
 "52s-Ly-VmQ.placeholder" = "在这里输入你的名字";
 
-/* Class = "IBUIButton"; normalTitle = "host"; ObjectID = "DQO-Y8-guc"; */
+/* Class = "IBUIButton"; normalTitle = "创建"; ObjectID = "DQO-Y8-guc"; */
 "DQO-Y8-guc.normalTitle" = "创建";
 
-/* Class = "IBUIButton"; normalTitle = "Distribute Words"; ObjectID = "L34-it-azh"; */
+/* Class = "IBUIButton"; normalTitle = "分发单词"; ObjectID = "L34-it-azh"; */
 "L34-it-azh.normalTitle" = "分发单词";
 
-/* Class = "IBUILabel"; text = "Waiting"; ObjectID = "PrQ-sf-8Ym"; */
+/* Class = "IBUILabel"; text = "等待中"; ObjectID = "PrQ-sf-8Ym"; */
 "PrQ-sf-8Ym.text" = "等待中";
 
-/* Class = "IBUILabel"; text = "undercover"; ObjectID = "csN-kE-qmt"; */
+/* Class = "IBUIButton"; normalTitle = "我死了"; ObjectID = "Q6R-s9-JOt"; */
+"Q6R-s9-JOt.normalTitle" = "我死了";
+
+/* Class = "IBUILabel"; text = "谁是卧底"; ObjectID = "csN-kE-qmt"; */
 "csN-kE-qmt.text" = "谁是卧底";
 
-/* Class = "IBUIButton"; normalTitle = "Exit"; ObjectID = "ePe-Oi-yIs"; */
+/* Class = "IBUIButton"; normalTitle = "退出"; ObjectID = "ePe-Oi-yIs"; */
 "ePe-Oi-yIs.normalTitle" = "退出";
 
-/* Class = "IBUIButton"; normalTitle = "join"; ObjectID = "gZE-kp-HI9"; */
+/* Class = "IBUIButton"; normalTitle = "加入"; ObjectID = "gZE-kp-HI9"; */
 "gZE-kp-HI9.normalTitle" = "加入";
 
-/* Class = "IBUILabel"; text = "Waiting"; ObjectID = "t1d-fU-sZN"; */
+/* Class = "IBUILabel"; text = "等待中"; ObjectID = "t1d-fU-sZN"; */
 "t1d-fU-sZN.text" = "等待中";
 
-/* Class = "IBUIButton"; normalTitle = "Exit"; ObjectID = "zSn-RL-bNb"; */
+/* Class = "IBUIButton"; normalTitle = "我死了"; ObjectID = "xle-RU-a7q"; */
+"xle-RU-a7q.normalTitle" = "我死了";
+
+/* Class = "IBUIButton"; normalTitle = "退出"; ObjectID = "zSn-RL-bNb"; */
 "zSn-RL-bNb.normalTitle" = "退出";

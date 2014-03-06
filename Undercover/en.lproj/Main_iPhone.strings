@@ -11,6 +11,9 @@
 /* Class = "IBUILabel"; text = "Waiting"; ObjectID = "PrQ-sf-8Ym"; */
 "PrQ-sf-8Ym.text" = "Waiting";
 
+/* Class = "IBUIButton"; normalTitle = "I am Dead"; ObjectID = "Q6R-s9-JOt"; */
+"Q6R-s9-JOt.normalTitle" = "I am Dead";
+
 /* Class = "IBUILabel"; text = "undercover"; ObjectID = "csN-kE-qmt"; */
 "csN-kE-qmt.text" = "undercover";
 
@@ -22,6 +25,9 @@
 
 /* Class = "IBUILabel"; text = "Waiting"; ObjectID = "t1d-fU-sZN"; */
 "t1d-fU-sZN.text" = "Waiting";
+
+/* Class = "IBUIButton"; normalTitle = "I am Dead"; ObjectID = "xle-RU-a7q"; */
+"xle-RU-a7q.normalTitle" = "I am Dead";
 
 /* Class = "IBUIButton"; normalTitle = "Exit"; ObjectID = "zSn-RL-bNb"; */
 "zSn-RL-bNb.normalTitle" = "Exit";
