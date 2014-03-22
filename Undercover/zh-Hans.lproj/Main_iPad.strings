@@ -2,8 +2,8 @@
 /* Class = "IBUIButton"; normalTitle = "我死了"; ObjectID = "Arg-vk-27d"; */
 "Arg-vk-27d.normalTitle" = "我死了";
 
-/* Class = "IBUIButton"; normalTitle = "分发单词"; ObjectID = "VMo-80-Ctj"; */
-"VMo-80-Ctj.normalTitle" = "分发单词";
+/* Class = "IBUIButton"; normalTitle = "分发词语"; ObjectID = "VMo-80-Ctj"; */
+"VMo-80-Ctj.normalTitle" = "分发词语";
 
 /* Class = "IBUIButton"; normalTitle = "退出"; ObjectID = "czn-p6-qLi"; */
 "czn-p6-qLi.normalTitle" = "退出";
