@@ -14,8 +14,8 @@
 /* Class = "IBUIButton"; normalTitle = "我死了"; ObjectID = "Q6R-s9-JOt"; */
 "Q6R-s9-JOt.normalTitle" = "我死了";
 
-/* Class = "IBUILabel"; text = "谁是卧底"; ObjectID = "csN-kE-qmt"; */
-"csN-kE-qmt.text" = "谁是卧底";
+/* Class = "IBUILabel"; text = "寻找卧底"; ObjectID = "csN-kE-qmt"; */
+"csN-kE-qmt.text" = "寻找卧底";
 
 /* Class = "IBUIButton"; normalTitle = "退出"; ObjectID = "ePe-Oi-yIs"; */
 "ePe-Oi-yIs.normalTitle" = "退出";

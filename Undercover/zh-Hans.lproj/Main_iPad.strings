@@ -26,8 +26,8 @@
 /* Class = "IBUIButton"; normalTitle = "退出"; ObjectID = "pMt-LO-Jf2"; */
 "pMt-LO-Jf2.normalTitle" = "退出";
 
-/* Class = "IBUILabel"; text = "谁是卧底"; ObjectID = "ry7-os-Z24"; */
-"ry7-os-Z24.text" = "谁是卧底";
+/* Class = "IBUILabel"; text = "寻找卧底"; ObjectID = "ry7-os-Z24"; */
+"ry7-os-Z24.text" = "寻找卧底";
 
 /* Class = "IBUILabel"; text = "等待中"; ObjectID = "yKL-a4-Cni"; */
 "yKL-a4-Cni.text" = "等待中";
