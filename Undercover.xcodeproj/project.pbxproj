@@ -49,6 +49,7 @@
 		071117C518C8BE370063AB19 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		071117C718C8BE3B0063AB19 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		071117C818C8BE3C0063AB19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		079B9CEC1903B03C0060440B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = SOURCE_ROOT; };
 		07C6B01618C1C29A009DC65A /* Undercover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Undercover.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07C6B01918C1C29A009DC65A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		07C6B01B18C1C29A009DC65A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -189,6 +190,7 @@
 				07C6B02718C1C29A009DC65A /* Undercover-Prefix.pch */,
 				07FDEEB818C34D5800D10ADB /* iTunesArtwork */,
 				07FDEEB918C34D5800D10ADB /* iTunesArtwork@2x */,
+				079B9CEC1903B03C0060440B /* README.md */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
