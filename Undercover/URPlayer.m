@@ -18,15 +18,14 @@
 @implementation URPlayer
 
 #pragma mark - Init Methods
+
 - (instancetype)initWithPeerID:(MCPeerID *)peerID
 {
     self = [super init];
-    
     if (self) {
         self.peerID = peerID;
         self.undercover = NO;
     }
-    
     return self;
 }
 

@@ -18,6 +18,7 @@
 @implementation URAgentViewController
 
 #pragma mark - View Controller Methods
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -44,6 +45,7 @@
 }
 
 #pragma mark - Connect View Controller Methods
+
 - (void)deadButtonTapped:(id)sender
 {
     [super deadButtonTapped:sender];
@@ -52,6 +54,7 @@
 }
 
 #pragma mark - Browser View Controller Delegate Methods
+
 - (void)browserViewControllerDidFinish:(MCBrowserViewController *)browserViewController
 {
     [self dismissViewControllerAnimated:YES completion:nil];
@@ -65,6 +68,7 @@
 }
 
 #pragma mark - Setter & Getter Methods
+
 - (MCBrowserViewController *)browserViewController
 {
     if (!_browserViewController) {

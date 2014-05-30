@@ -27,6 +27,7 @@ static NSString * const firstUnplayedWordIndexKey = @"first-unplayed-word-index-
 @implementation URHostViewController
 
 #pragma mark - View Controller Methods
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -52,6 +53,7 @@ static NSString * const firstUnplayedWordIndexKey = @"first-unplayed-word-index-
 }
 
 #pragma mark Connect View Controller Methods
+
 - (void)deadButtonTapped:(id)sender
 {
     [super deadButtonTapped:sender];
@@ -77,6 +79,7 @@ static NSString * const firstUnplayedWordIndexKey = @"first-unplayed-word-index-
 }
 
 #pragma mark - View Methods
+
 - (void)startButtonTapped:(id)sender
 {
     //Init words.
@@ -124,6 +127,7 @@ static NSString * const firstUnplayedWordIndexKey = @"first-unplayed-word-index-
 }
 
 #pragma mark - Nearby Service Advertiser Delegate Methods
+
 - (void)advertiser:(MCNearbyServiceAdvertiser *)advertiser didReceiveInvitationFromPeer:(MCPeerID *)peerID withContext:(NSData *)context invitationHandler:(void (^)(BOOL, MCSession *))invitationHandler
 {
     invitationHandler(YES, self.session);
@@ -132,6 +136,7 @@ static NSString * const firstUnplayedWordIndexKey = @"first-unplayed-word-index-
 }
 
 #pragma mark - Setter & Getter Methods
+
 -(NSArray *)wordsDictionary
 {
     if (!_wordsDictionary) {

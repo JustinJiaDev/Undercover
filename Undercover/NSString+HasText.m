@@ -12,11 +12,7 @@
 
 - (BOOL)hasText
 {
-    if (self && ![self isEqualToString:@""]) {
-        return YES;
-    } else {
-        return NO;
-    }
+    return self && ![self isEqualToString:[NSString string]];
 }
 
 @end

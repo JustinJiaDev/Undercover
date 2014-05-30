@@ -39,6 +39,7 @@
 @implementation MKSync
 
 #pragma mark - Init Methods
+
 + (void)start
 {
     if (![NSUbiquitousKeyValueStore defaultStore]) {
@@ -55,7 +56,8 @@
 }
 
 #pragma mark - Interval Methods
-+ (void)updateFrom:(NSNotification*)notificationObject
+
++ (void)updateFrom:(NSNotification *)notificationObject
 {
     // Prevent NSUserDefaultsDidChangeNotification from being posted while we update from iCloud.
     [[NSNotificationCenter defaultCenter] removeObserver:self name:NSUserDefaultsDidChangeNotification object:nil];

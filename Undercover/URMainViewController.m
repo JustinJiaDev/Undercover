@@ -16,6 +16,7 @@ static NSUInteger const maxNameLength = 16;
 @implementation URMainViewController
 
 #pragma mark View Controller Methods
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -40,12 +41,14 @@ static NSUInteger const maxNameLength = 16;
 }
 
 #pragma mark - View Methods
+
 - (IBAction)nameTextFieldDidEndOnExit:(id)sender
 {
     [[NSUserDefaults standardUserDefaults] setObject:self.nameTextField.text forKey:nameKey];
 }
 
 #pragma mark - Text Field Delegate Methods
+
 - (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string
 {
     NSUInteger finalLength = (textField.text.length + string.length - range.length);
@@ -53,12 +56,14 @@ static NSUInteger const maxNameLength = 16;
 }
 
 #pragma mark - Connect View Controller Delegate Methods
+
 - (void)connectViewControllerDidFinish:(URConnectViewController *)connectViewController
 {
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 #pragma - Responder Methods
+
 - (IBAction)handleViewTap:(UIGestureRecognizer *)gestureRecognizer
 {
     switch (gestureRecognizer.state) {
@@ -72,6 +77,7 @@ static NSUInteger const maxNameLength = 16;
 }
 
 #pragma mark - Status Bar Methods
+
 - (BOOL)prefersStatusBarHidden
 {
     return YES;
