@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		071117C618C8BE370063AB19 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 071117C418C8BE370063AB19 /* Localizable.strings */; };
+		076F47AD19385C7700D8B209 /* URPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 076F47AC19385C7700D8B209 /* URPlayerTests.m */; };
 		07C6B01A18C1C29A009DC65A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07C6B01918C1C29A009DC65A /* Foundation.framework */; };
 		07C6B01C18C1C29A009DC65A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07C6B01B18C1C29A009DC65A /* CoreGraphics.framework */; };
 		07C6B01E18C1C29A009DC65A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07C6B01D18C1C29A009DC65A /* UIKit.framework */; };
@@ -22,7 +23,6 @@
 		07C6B03D18C1C29A009DC65A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07C6B01918C1C29A009DC65A /* Foundation.framework */; };
 		07C6B03E18C1C29A009DC65A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07C6B01D18C1C29A009DC65A /* UIKit.framework */; };
 		07C6B04618C1C29A009DC65A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07C6B04418C1C29A009DC65A /* InfoPlist.strings */; };
-		07C6B04818C1C29A009DC65A /* UndercoverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C6B04718C1C29A009DC65A /* UndercoverTests.m */; };
 		07C6B05518C1C909009DC65A /* MKSync.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C6B05418C1C909009DC65A /* MKSync.m */; };
 		07C6B05918C1D235009DC65A /* NSString+HasText.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C6B05818C1D235009DC65A /* NSString+HasText.m */; };
 		07C6B05C18C1D956009DC65A /* URHostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C6B05B18C1D956009DC65A /* URHostViewController.m */; };
@@ -49,6 +49,7 @@
 		071117C518C8BE370063AB19 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		071117C718C8BE3B0063AB19 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		071117C818C8BE3C0063AB19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		076F47AC19385C7700D8B209 /* URPlayerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URPlayerTests.m; sourceTree = "<group>"; };
 		079B9CEC1903B03C0060440B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = SOURCE_ROOT; };
 		07C6B01618C1C29A009DC65A /* Undercover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Undercover.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07C6B01918C1C29A009DC65A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -67,7 +68,6 @@
 		07C6B03A18C1C29A009DC65A /* UndercoverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UndercoverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07C6B03B18C1C29A009DC65A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		07C6B04318C1C29A009DC65A /* UndercoverTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UndercoverTests-Info.plist"; sourceTree = "<group>"; };
-		07C6B04718C1C29A009DC65A /* UndercoverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UndercoverTests.m; sourceTree = "<group>"; };
 		07C6B05118C1C487009DC65A /* URConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URConstants.h; sourceTree = "<group>"; };
 		07C6B05218C1C54E009DC65A /* Undercover.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Undercover.entitlements; sourceTree = "<group>"; };
 		07C6B05318C1C909009DC65A /* MKSync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKSync.h; sourceTree = "<group>"; };
@@ -123,6 +123,106 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		076F47AE19385FC500D8B209 /* URPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				07C6B05F18C21874009DC65A /* URPlayer.h */,
+				07C6B06018C21874009DC65A /* URPlayer.m */,
+			);
+			name = URPlayer;
+			sourceTree = "<group>";
+		};
+		076F47AF19385FCC00D8B209 /* URConnectViewController */ = {
+			isa = PBXGroup;
+			children = (
+				07C6B06518C22CD5009DC65A /* URConnectViewController.h */,
+				07C6B06618C22CD5009DC65A /* URConnectViewController.m */,
+			);
+			name = URConnectViewController;
+			sourceTree = "<group>";
+		};
+		076F47B019385FD700D8B209 /* URAgentViewController */ = {
+			isa = PBXGroup;
+			children = (
+				07C6B06218C2294F009DC65A /* URAgentViewController.h */,
+				07C6B06318C2294F009DC65A /* URAgentViewController.m */,
+			);
+			name = URAgentViewController;
+			sourceTree = "<group>";
+		};
+		076F47B119385FE000D8B209 /* URHostViewController */ = {
+			isa = PBXGroup;
+			children = (
+				07C6B05A18C1D956009DC65A /* URHostViewController.h */,
+				07C6B05B18C1D956009DC65A /* URHostViewController.m */,
+			);
+			name = URHostViewController;
+			sourceTree = "<group>";
+		};
+		076F47B219385FE700D8B209 /* URMainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				07C6B03118C1C29A009DC65A /* URMainViewController.h */,
+				07C6B03218C1C29A009DC65A /* URMainViewController.m */,
+			);
+			name = URMainViewController;
+			sourceTree = "<group>";
+		};
+		076F47B319385FF400D8B209 /* URAppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				07C6B02818C1C29A009DC65A /* URAppDelegate.h */,
+				07C6B02918C1C29A009DC65A /* URAppDelegate.m */,
+			);
+			name = URAppDelegate;
+			sourceTree = "<group>";
+		};
+		076F47B419385FFD00D8B209 /* URStoryboard */ = {
+			isa = PBXGroup;
+			children = (
+				07C6B02B18C1C29A009DC65A /* Main_iPhone.storyboard */,
+				07C6B02E18C1C29A009DC65A /* Main_iPad.storyboard */,
+			);
+			name = URStoryboard;
+			sourceTree = "<group>";
+		};
+		076F47B51938600D00D8B209 /* URViewController */ = {
+			isa = PBXGroup;
+			children = (
+				076F47B219385FE700D8B209 /* URMainViewController */,
+				076F47B119385FE000D8B209 /* URHostViewController */,
+				076F47B019385FD700D8B209 /* URAgentViewController */,
+				076F47AF19385FCC00D8B209 /* URConnectViewController */,
+			);
+			name = URViewController;
+			sourceTree = "<group>";
+		};
+		076F47B61938601E00D8B209 /* MKSync */ = {
+			isa = PBXGroup;
+			children = (
+				07C6B05318C1C909009DC65A /* MKSync.h */,
+				07C6B05418C1C909009DC65A /* MKSync.m */,
+			);
+			name = MKSync;
+			sourceTree = "<group>";
+		};
+		076F47B71938602500D8B209 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				07C6B05718C1D235009DC65A /* NSString+HasText.h */,
+				07C6B05818C1D235009DC65A /* NSString+HasText.m */,
+			);
+			name = NSString;
+			sourceTree = "<group>";
+		};
+		076F47B81938604800D8B209 /* URConstants */ = {
+			isa = PBXGroup;
+			children = (
+				07C6B05118C1C487009DC65A /* URConstants.h */,
+			);
+			name = URConstants;
+			sourceTree = "<group>";
+		};
 		07C6B00D18C1C29A009DC65A = {
 			isa = PBXGroup;
 			children = (
@@ -157,21 +257,11 @@
 		07C6B01F18C1C29A009DC65A /* Undercover */ = {
 			isa = PBXGroup;
 			children = (
-				07C6B02818C1C29A009DC65A /* URAppDelegate.h */,
-				07C6B02918C1C29A009DC65A /* URAppDelegate.m */,
-				07C6B02B18C1C29A009DC65A /* Main_iPhone.storyboard */,
-				07C6B02E18C1C29A009DC65A /* Main_iPad.storyboard */,
-				07C6B03118C1C29A009DC65A /* URMainViewController.h */,
-				07C6B03218C1C29A009DC65A /* URMainViewController.m */,
-				07C6B05A18C1D956009DC65A /* URHostViewController.h */,
-				07C6B05B18C1D956009DC65A /* URHostViewController.m */,
-				07C6B06218C2294F009DC65A /* URAgentViewController.h */,
-				07C6B06318C2294F009DC65A /* URAgentViewController.m */,
-				07C6B06518C22CD5009DC65A /* URConnectViewController.h */,
-				07C6B06618C22CD5009DC65A /* URConnectViewController.m */,
-				07C6B05F18C21874009DC65A /* URPlayer.h */,
-				07C6B06018C21874009DC65A /* URPlayer.m */,
-				07C6B05618C1CCED009DC65A /* Sypporting Code */,
+				076F47B319385FF400D8B209 /* URAppDelegate */,
+				076F47B419385FFD00D8B209 /* URStoryboard */,
+				076F47B51938600D00D8B209 /* URViewController */,
+				076F47AE19385FC500D8B209 /* URPlayer */,
+				07C6B05618C1CCED009DC65A /* URCommon */,
 				07C6B02018C1C29A009DC65A /* Supporting Files */,
 			);
 			path = Undercover;
@@ -198,7 +288,7 @@
 		07C6B04118C1C29A009DC65A /* UndercoverTests */ = {
 			isa = PBXGroup;
 			children = (
-				07C6B04718C1C29A009DC65A /* UndercoverTests.m */,
+				076F47AC19385C7700D8B209 /* URPlayerTests.m */,
 				07C6B04218C1C29A009DC65A /* Supporting Files */,
 			);
 			path = UndercoverTests;
@@ -213,16 +303,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		07C6B05618C1CCED009DC65A /* Sypporting Code */ = {
+		07C6B05618C1CCED009DC65A /* URCommon */ = {
 			isa = PBXGroup;
 			children = (
-				07C6B05318C1C909009DC65A /* MKSync.h */,
-				07C6B05418C1C909009DC65A /* MKSync.m */,
-				07C6B05718C1D235009DC65A /* NSString+HasText.h */,
-				07C6B05818C1D235009DC65A /* NSString+HasText.m */,
-				07C6B05118C1C487009DC65A /* URConstants.h */,
+				076F47B61938601E00D8B209 /* MKSync */,
+				076F47B71938602500D8B209 /* NSString */,
+				076F47B81938604800D8B209 /* URConstants */,
 			);
-			name = "Sypporting Code";
+			name = URCommon;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -357,7 +445,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07C6B04818C1C29A009DC65A /* UndercoverTests.m in Sources */,
+				076F47AD19385C7700D8B209 /* URPlayerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

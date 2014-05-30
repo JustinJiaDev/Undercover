@@ -1,5 +1,5 @@
 //
-//  URAgentViewController.h
+//  URPlayerTests.m
 //
 //  Copyright (C) 2014 by Bowei Jia (Justin).
 //
@@ -22,8 +22,44 @@
 //  THE SOFTWARE.
 //
 
-#import "URConnectViewController.h"
+@import XCTest;
+@import MultipeerConnectivity;
 
-@interface URAgentViewController : URConnectViewController <MCBrowserViewControllerDelegate, MCSessionDelegate>
+#import "URPlayer.h"
+
+@interface URPlayerTests : XCTestCase
+
+@property (strong, nonatomic) MCPeerID *peerID;
+
+@end
+
+@implementation URPlayerTests
+
+- (void)setUp
+{
+    [super setUp];
+
+    self.peerID = [[MCPeerID alloc] initWithDisplayName:@"test-player"];
+}
+
+- (void)tearDown
+{
+    self.peerID = nil;
+
+    [super tearDown];
+}
+
+- (void)testPlayer
+{
+    XCTAssertThrows([[URPlayer alloc] init], @"");
+
+    URPlayer *player = [[URPlayer alloc] initWithPeerID:self.peerID];
+    XCTAssertEqualObjects(player.peerID, self.peerID, @"PeerID property should be set correctly.");
+    XCTAssertFalse(player.isUndercover, @"Undercover property by default should be NO.");
+
+    BOOL isUndercover = rand() % 2;
+    player.undercover = isUndercover;
+    XCTAssertEqual(player.isUndercover, isUndercover, @"Undercover property should be set correctly.");
+}
 
 @end
