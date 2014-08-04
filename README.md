@@ -1,6 +1,6 @@
 # Undercover
 
-An iOS card game. Available on the [App Store](https://itunes.apple.com/app/id845918266) (Free & No Ads & No In-App Purchase).
+An iOS card game. View this [blog post](http://zhuanlan.zhihu.com/Jacinth/19738343) (Written in Chinese) for more information.
 
 Pull requests are welcomed.
 
